@@ -3,6 +3,7 @@
     "description": "Devino Notification Channel for laravel.",
     "keywords": ["laravel", "notifications", "devino"],
     "license": "MIT",
+    "version": "1.0.0",
     "authors": [
         {
             "name": "Andrey Savenkov",
