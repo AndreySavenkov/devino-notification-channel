@@ -1,0 +1,43 @@
+{
+    "name": "in7rude/devino-notification-channel",
+    "description": "Devino Notification Channel for laravel.",
+    "keywords": ["laravel", "notifications", "devino"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrey Savenkov",
+            "email": "a@savenkov.dev"
+        }
+    ],
+    "require": {
+        "php": "^7.1.3",
+        "illuminate/notifications": "~5.8.0|^6.0|^7.0",
+        "ext-json": "*",
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Illuminate\\Notifications\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Illuminate\\Tests\\Notifications\\": "tests/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        },
+        "laravel": {
+            "providers": [
+                "Illuminate\\Notifications\\DevinoChannelServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
